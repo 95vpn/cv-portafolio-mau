@@ -51,6 +51,7 @@
 
     <main class='main'>
       <section id="hero" class='hero'>
+        <div class="overlay1"></div>
         <div class='container'>
           <h1 class='hero-title'>Hola te saluda Johnny Mauricio<span>.</span></h1>
           <p class='hero-description'>Desarrollador <span>Front-end</span></p>
@@ -343,11 +344,19 @@
       <section id='contact' class='section contact'>
         <h2 class='section-title'>Contacto</h2>
         <div class='container'>
-          <p>Si tiene preguntas o simplemente quiere saludarme, no dude en enviarme un correo electrónico.</p>
-          <div class='box'>
-            <i class='bx bxs-envelope'></i>
-            <span>support@jsfdz.com</span>
-          </div>
+          <div class="container-person">
+
+            <p>Si tiene preguntas o simplemente quiere saludarme, no dude en enviarme un correo electrónico.</p>
+            <form class="form">
+                <input type="text" placeholder="Ingresa tu nombre" name="nameUser" id="nameUser" required>
+                <input type="email" placeholder="Ingresa tu correo" name="emailUser" id="emailUser" required>
+
+                <textarea name="commentUser" id="commentUser" cols="30" rows="10"
+                    placeholder="Escribeme ..."></textarea>
+
+                <button class="btn">Enviar</button>
+            </form>
+        </div>
         </div>
       </section>
     </main>
