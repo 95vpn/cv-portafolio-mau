@@ -34,7 +34,7 @@ body {
   background-color: var(--bg-body);
   color: var(--txt-body);
   font-family: var(--family-body);
-  font-size: 1.8rem;
+  font-size: 1.65rem;
   margin: 0;
 }
 
@@ -421,7 +421,7 @@ button.btn-open {
 } */
 
 .swiper .card {
-  padding: 1.5em;
+  padding: 1em;
   border-radius: 10px;
   text-align: center;
   display: grid;
@@ -430,7 +430,7 @@ button.btn-open {
   margin: 0 auto;
   background-color: var(--bg-alt);
   color: var(--tx-body);
-  height: auto;
+  /* height: 60vh; */
   /* border: 1px solid var(--second-color);
   box-shadow: 0px 0px 5px var(--thirty-color), 0px 0px 5px var(--thirty-color), 0px 0px 5px var(--thirty-color), 0px 0px 5px var(--thirty-color); */
 }
@@ -495,8 +495,8 @@ button.btn-open {
 .swiper .swiper-nav-wrapper .swiper-button-prev,
 .swiper .swiper-nav-wrapper .swiper-container-rtl .swiper-button-prev,
 .swiper .swiper-nav-wrapper .swiper-container-rtl .swiper-button-next {
-    width: 20px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     margin: 0;
     padding: 0;
 }
@@ -581,12 +581,12 @@ button.btn-open {
   margin: 0 auto;
 } */
 
-/* .swiper .card-img {
-  width: 210px;
-  height: 210px;
+.swiper .card-img {
+  width: 200px;
+  height: 200px;
   
   overflow: hidden;
-}  */
+} 
 
 /* .swiper .card-img img {
   width: 100%;
@@ -653,18 +653,18 @@ button.btn-open {
   color: var(--txt-body);
 }
 
-/* .swiper-pagination {
+.swiper-pagination {
   margin: 0;
   padding: 0;
   position: relative !important;
   display: block;
   width: auto;
-} */
+}
 
-/* .swiper-pagination .swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-pagination .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0;
   background: var(--txt-body) !important;
-} */
+}
 
 /* .swiper-pagination-bullet {
   background: var(--primary-color) !important;
@@ -683,9 +683,9 @@ button.btn-open {
   padding: 0 1.5em;
 } */
 
-/* .swiper-pagination-bullet-active {
+.swiper-pagination-bullet-active {
   transform: scale(1.5);
-} */
+}
 
 /* Contact */
 /* .contact .container {

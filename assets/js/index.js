@@ -21,6 +21,22 @@ const skills = [
   {
     path: 'assets/img/javascript.svg',
     name: 'JavaScript',
+  },
+  {
+    path: 'assets/img/react.svg',
+    name: 'React',
+  },
+  {
+    path: 'assets/img/react-router.svg',
+    name: 'React Router',
+  },
+  {
+    path: 'assets/img/redux.svg',
+    name: 'Redux',
+  },
+  {
+    path: 'assets/img/vite.svg',
+    name: 'Vite'
   }
 ]
 
