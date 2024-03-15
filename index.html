@@ -1,130 +1,146 @@
 <!DOCTYPE html>
 <html lang='es'>
-  <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Portafolio</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.css'>
-    <link rel='stylesheet' href='assets/css/style.css'>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav container">
 
-        <a class="logo" href=''>JM<span>.</span></a>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Portafolio</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.css'>
+  <link rel='stylesheet' href='assets/css/style.css'>
 
-        <div class="nav-menu">
-          <button class="btn-close" type='button' aria-label="close menu">
-            <i class='bx bx-x'></i>
-          </button>
+</head>
 
-          <ul class="menu-list">
-            <li class="list-item active">
-              <a class="list-link" href='#hero'>Inicio</a>
+<body>
+  <header class="header">
+    <nav class="nav container">
+
+      <a class="logo" href=''>JM<span>.</span></a>
+
+      <div class="nav-menu">
+        <button class="btn-close" type='button' aria-label="close menu">
+          <i class='bx bx-x'></i>
+        </button>
+
+        <ul class="menu-list">
+          <li class="list-item active">
+            <a class="list-link" href='#hero'>Inicio</a>
+          </li>
+          <li class="list-item">
+            <a class="list-link" href='#about'>Sobre mí</a>
+          </li>
+          <li class="list-item">
+            <a class="list-link" href='#skills'>Habilidades</a>
+          </li>
+          <li class="list-item">
+            <a class="list-link" href='#projects'>Portafolio</a>
+          </li>
+          <li class="list-item">
+            <a class="list-link" href='#contact'>Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="actions">
+        <button class="btn-theme" type='button' aria-label="change theme">
+          <i class='bx bxs-moon'></i>
+        </button>
+        <button class="btn-open" type='button' aria-label="show menu">
+          <i class='bx bx-menu'></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class='main'>
+    <section id="hero" class='hero'>
+      <div class="overlay1"></div>
+      <div class='container'>
+        <h1 class='hero-title'>Hola, te saluda Johnny Mauricio<span>.</span></h1>
+        <p class='hero-description'>Desarrollador <span>Front-end</span></p>
+      </div>
+    </section>
+
+    <section id="about" class='section about'>
+      <h2 class='section-title'>Sobre Mí</h2>
+      <div class='container'>
+        <div class='about-info'>
+          <p>Soy proactivo y me entusiasma profundamente expandir mis conocimientos técnicos por cuenta propia,
+            especialmente en áreas vibrantes como JavaScript, CSS y React, que están intrínsecamente ligadas al
+            desarrollo front-end. Más allá de garantizar la funcionalidad de los proyectos, encuentro una pasión en
+            combinar colores y estilos para crear interfaces visualmente atractivas y cautivadoras. Creo firmemente que
+            la estética juega un papel fundamental en la experiencia del usuario, y me dedico a hacer que cada proyecto
+            no solo funcione de manera impecable, sino que también deleite a quienes lo utilizan. Además, mi formación
+            académica como físico matemático y mi experiencia como ingeniero electrónico me han proporcionado una sólida
+            base para abordar los desafíos del desarrollo web con tecnologías modernas.</p>
+    </section>
+
+    <section id="skills" class='section skills'>
+      <h2 class='section-title'>Mis Habilidades</h2>
+      <div class='container'>
+        <div class='skills-container'>
+          <div class='skills-tech'></div>
+          <ul class='skills-soft'>
+            <li class='skill-item'>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                <path d="M9 12l2 2l4 -4"></path>
+              </svg>
+              <span>Comunicación clara</span>
             </li>
-            <li class="list-item">
-              <a class="list-link" href='#about'>Sobre mí</a>
+            <li class='skill-item'>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                <path d="M9 12l2 2l4 -4"></path>
+              </svg>
+              <span>Responsabilidad</span>
             </li>
-            <li class="list-item">
-              <a class="list-link" href='#skills'>Habilidades</a>
+            <li class='skill-item'>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                <path d="M9 12l2 2l4 -4"></path>
+              </svg>
+              <span>Resolución de problemas</span>
             </li>
-            <li class="list-item">
-              <a class="list-link" href='#projects'>Portafolio</a>
+            <li class='skill-item'>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                <path d="M9 12l2 2l4 -4"></path>
+              </svg>
+              <span>Gestión del tiempo</span>
             </li>
-            <li class="list-item">
-              <a class="list-link" href='#contact'>Contacto</a>
+            <li class='skill-item'>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                <path d="M9 12l2 2l4 -4"></path>
+              </svg>
+              <span>Trabajo en equipo</span>
+            </li>
+            <li class='skill-item'>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                <path d="M9 12l2 2l4 -4"></path>
+              </svg>
+              <span>Adaptación al cambio</span>
             </li>
           </ul>
         </div>
+      </div>
+    </section>
 
-        <div class="actions">
-          <button class="btn-theme" type='button' aria-label="change theme">
-            <i class='bx bxs-moon'></i>
-          </button>
-          <button class="btn-open" type='button' aria-label="show menu">
-            <i class='bx bx-menu'></i>
-          </button>
-        </div>
-      </nav>
-    </header>
-
-    <main class='main'>
-      <section id="hero" class='hero'>
-        <div class="overlay1"></div>
-        <div class='container'>
-          <h1 class='hero-title'>Hola, te saluda Johnny Mauricio<span>.</span></h1>
-          <p class='hero-description'>Desarrollador <span>Front-end</span></p>
-        </div>
-      </section>
-
-      <section id="about" class='section about'>
-        <h2 class='section-title'>Sobre Mí</h2>
-        <div class='container'>
-          <div class='about-info'>
-            <p>Soy proactivo y me entusiasma profundamente expandir mis conocimientos técnicos por cuenta propia, especialmente en áreas vibrantes como JavaScript, CSS y React, que están intrínsecamente ligadas al desarrollo front-end. Más allá de garantizar la funcionalidad de los proyectos, encuentro una pasión en combinar colores y estilos para crear interfaces visualmente atractivas y cautivadoras. Creo firmemente que la estética juega un papel fundamental en la experiencia del usuario, y me dedico a hacer que cada proyecto no solo funcione de manera impecable, sino que también deleite a quienes lo utilizan. Además, mi formación académica como físico matemático y mi experiencia como ingeniero electrónico me han proporcionado una sólida base para abordar los desafíos del desarrollo web con tecnologías modernas.</p>
-      </section>
-
-      <section id="skills" class='section skills'>
-        <h2 class='section-title'>Mis Habilidades</h2>
-        <div class='container'>
-          <div class='skills-container'>
-            <div class='skills-tech'></div>
-            <ul class='skills-soft'>
-              <li class='skill-item'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                  <path d="M9 12l2 2l4 -4"></path>
-                </svg>
-                <span>Comunicación clara</span>
-              </li>
-              <li class='skill-item'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                  <path d="M9 12l2 2l4 -4"></path>
-                </svg>
-                <span>Responsabilidad</span>
-              </li>
-              <li class='skill-item'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                  <path d="M9 12l2 2l4 -4"></path>
-                </svg>
-                <span>Resolución de problemas</span>
-              </li>
-              <li class='skill-item'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                  <path d="M9 12l2 2l4 -4"></path>
-                </svg>
-                <span>Gestión del tiempo</span>
-              </li>
-              <li class='skill-item'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                  <path d="M9 12l2 2l4 -4"></path>
-                </svg>
-                <span>Trabajo en equipo</span>
-              </li>
-              <li class='skill-item'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                  <path d="M9 12l2 2l4 -4"></path>
-                </svg>
-                <span>Adaptación al cambio</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- <section id='projects' class='section projects'>
+    <!-- <section id='projects' class='section projects'>
         <h2 class='section-title'>Proyectos</h2>
         <div class='container'>
           <div class='projects-container'>
@@ -224,273 +240,287 @@
         </div>
       </section> -->
 
-      <section id="projects" class="section projects">
-        <h2 class="section-title">Proyectos</h2>
-        <div class="container">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="./assets/img/project1.svg" alt="project" />
-                                <div class="overlay">
-                                    <a href="https://github.com/95vpn/maquetado-1" target="_blank">
-                                        <i class='bx bxl-github'></i>
-                                    </a>
-                                    <a href="https://maquetado-1.netlify.app/" target="_blank">
-                                        <i class='bx bx-window-alt'></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Proyecto # 1</h3>
-                            <p class="project-description">Comenzando en el mundo de desarrollo web
-                            </p>
-                            <div class="projects-skills">
-                                <span>html</span>
-                                <span>css</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="./assets/img/project2.svg" alt="project" />
-                                <div class="overlay">
-                                    <a href="https://github.com/95vpn/react-galleta-de-la-fortuna" target="_blank">
-                                        <i class='bx bxl-github'></i>
-                                    </a>
-                                    <a href="https://experimento-de-blog.netlify.app/" target="_blank">
-                                        <i class='bx bx-window-alt'></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Proyecto # 2</h3>
-                            <p class="project-description">Maquetando y dando estilos a un modelo de blog de mascotas y que sea responsivo.
-                            </p>
-                            <div class="projects-skills">
-                                <span>html</span>
-                                <span>css</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="./assets/img/project3.svg" alt="project" />
-                                <div class="overlay">
-                                    <a href="https://github.com/95vpn/react-galleta-de-la-fortuna" target="_blank">
-                                        <i class='bx bxl-github'></i>
-                                    </a>
-                                    <a href="https://galleta-fortuna-project.netlify.app/" target="_blank">
-                                        <i class='bx bx-window-alt'></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Proyecto # 3</h3>
-                            <p class="project-description">Se trata de la galleta de la fortuna donde el usuario puede probar su suerte.
-                            </p>
-                            <div class="projects-skills">
-                                <span>react</span>
-                                <span>javaScript</span>
-                                <span>Components</span>
-                                <span>props</span>
-                                <span>useState</span>
-                                <span>css</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <div class="card-img">
-                                <img src="./assets/img/project4.svg" alt="project" />
-                                <div class="overlay">
-                                    <a href="https://github.com/95vpn/weather-clima" target="_blank">
-                                        <i class='bx bxl-github'></i>
-                                    </a>
-                                    <a href="https://weather-clima-mau.netlify.app/" target="_blank">
-                                        <i class='bx bx-window-alt'></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <h3>Proyecto # 4</h3>
-                            <p class="project-description">Es una aplicación del clima donde se puede ver algunas variables como la velocidad del viento, la humedad, temperatura, entre otros de cualquier ciudad.
-                            </p>
-                            <div class="projects-skills">
-                                <span>react</span>
-                                <span>javaScript</span>
-                                <span>useEffect</span>
-                                <span>useRef</span>
-                                <span>fetch</span>
-                                <span>axios</span>
-                                <span>css</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="card">
-                          <div class="card-img">
-                              <img src="./assets/img/project5.svg" alt="project" />
-                              <div class="overlay">
-                                  <a href="https://github.com/95vpn/rick-morty-caricatura" target="_blank">
-                                      <i class='bx bxl-github'></i>
-                                  </a>
-                                  <a href="https://rick-morty-caricatura-mau.netlify.app/" target="_blank">
-                                      <i class='bx bx-window-alt'></i>
-                                  </a>
-                              </div>
-                          </div>
-                          <h3>Proyecto # 5</h3>
-                          <p class="project-description">Es una aplicación web de la serie de Rick and Morty que proporciona datos sobre las locaciones.
-                          </p>
-                          <div class="projects-skills">
-                              <span>react</span>
-                              <span>javaScript</span>
-                              <span>useEffect</span>
-                              <span>css</span>
-                              <span>axios</span>
-                          </div>
-                      </div>
+    <section id="projects" class="section projects">
+      <h2 class="section-title">Proyectos</h2>
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./assets/img/project8.svg" alt="project" />
+                  <div class="overlay">
+                    <a href="https://github.com/95vpn/ecommerse-mau" target="_blank">
+                      <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://eccommerce-mau.netlify.app/" target="_blank">
+                      <i class='bx bx-window-alt'></i>
+                    </a>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="card">
-                        <div class="card-img">
-                            <img src="./assets/img/project6.svg" alt="project" />
-                            <div class="overlay">
-                                <a href="https://github.com/95vpn/usuarios-api" target="_blank">
-                                    <i class='bx bxl-github'></i>
-                                </a>
-                                <a href="https://data-user-api.netlify.app/" target="_blank">
-                                    <i class='bx bx-window-alt'></i>
-                                </a>
-                            </div>
-                        </div>
-                        <h3>Proyecto # 6</h3>
-                        <p class="project-description">Es una lógica CRUD (get, create, delete, update) que nos  permite interactuar con una API de Users, a través de todos los métodos http.
-                        </p>
-                        <div class="projects-skills">
-                            <span>react</span>
-                            <span>javaScript</span>
-                            <span>useEffect</span>
-                            <span>css</span>
-                            <span>axios</span>
-                        </div>
-                    </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="card">
-                      <div class="card-img">
-                          <img src="./assets/img/project7.svg" alt="project" />
-                          <div class="overlay">
-                              <a href="https://github.com/95vpn/pokemon-api" target="_blank">
-                                  <i class='bx bxl-github'></i>
-                              </a>
-                              <a href="https://api-poke-mau.netlify.app/" target="_blank">
-                                  <i class='bx bx-window-alt'></i>
-                              </a>
-                          </div>
-                      </div>
-                      <h3>Proyecto # 7</h3>
-                      <p class="project-description">Proporciona información detallada sobre cada especie de Pokémon, incluyendo sus estadísticas, habilidades, evoluciones, descripciones y más.
-                      </p>
-                      <div class="projects-skills">
-                          <span>react</span>
-                          <span>javaScript</span>
-                          <span>useEffect</span>
-                          <span>css</span>
-                          <span>axios</span>
-                          <span>react-redux</span>
-                          <span>react-router-dom</span>
-                          <span>redux-toolkit</span>
-                      </div>
-                  </div>
+                <h3>Proyecto # 8</h3>
+                <p class="project-description">Es una simulación que permite a los usuarios navegar por un catálogo de
+                  productos, agregar artículos a un carrito de compras conectado directamente a un backend y permite ver
+                  sus compras.
+                </p>
+                <div class="projects-skills">
+                  <span>react</span>
+                  <span>javaScript</span>
+                  <span>useEffect</span>
+                  <span>css</span>
+                  <span>axios</span>
+                  <span>react-redux</span>
+                  <span>react-router-dom</span>
+                  <span>redux-toolkit</span>
+                </div>
               </div>
-              <div class="swiper-slide">
-                <div class="card">
-                    <div class="card-img">
-                        <img src="./assets/img/project8.svg" alt="project" />
-                        <div class="overlay">
-                            <a href="https://github.com/95vpn/ecommerse-mau" target="_blank">
-                                <i class='bx bxl-github'></i>
-                            </a>
-                            <a href="https://eccommerce-mau.netlify.app/" target="_blank">
-                                <i class='bx bx-window-alt'></i>
-                            </a>
-                        </div>
-                    </div>
-                    <h3>Proyecto # 8</h3>
-                    <p class="project-description">Es una simulación que permite a los usuarios navegar por un catálogo de productos, agregar artículos a un carrito de compras conectado directamente a un backend y permite ver sus compras. 
-                    </p>
-                    <div class="projects-skills">
-                        <span>react</span>
-                        <span>javaScript</span>
-                        <span>useEffect</span>
-                        <span>css</span>
-                        <span>axios</span>
-                        <span>react-redux</span>
-                        <span>react-router-dom</span>
-                        <span>redux-toolkit</span>
-                    </div>
-                </div>
             </div>
-                  
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./assets/img/project7.svg" alt="project" />
+                  <div class="overlay">
+                    <a href="https://github.com/95vpn/pokemon-api" target="_blank">
+                      <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://api-poke-mau.netlify.app/" target="_blank">
+                      <i class='bx bx-window-alt'></i>
+                    </a>
+                  </div>
                 </div>
-                <div class="swiper-nav-wrapper">
-                    <!-- <div class="swiper-button-prev">
+                <h3>Proyecto # 7</h3>
+                <p class="project-description">Proporciona información detallada sobre cada especie de Pokémon,
+                  incluyendo sus estadísticas, habilidades, evoluciones, descripciones y más.
+                </p>
+                <div class="projects-skills">
+                  <span>react</span>
+                  <span>javaScript</span>
+                  <span>useEffect</span>
+                  <span>css</span>
+                  <span>axios</span>
+                  <span>react-redux</span>
+                  <span>react-router-dom</span>
+                  <span>redux-toolkit</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./assets/img/project6.svg" alt="project" />
+                  <div class="overlay">
+                    <a href="https://github.com/95vpn/usuarios-api" target="_blank">
+                      <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://data-user-api.netlify.app/" target="_blank">
+                      <i class='bx bx-window-alt'></i>
+                    </a>
+                  </div>
+                </div>
+                <h3>Proyecto # 6</h3>
+                <p class="project-description">Es una lógica CRUD (get, create, delete, update) que nos permite
+                  interactuar con una API de Users, a través de todos los métodos http.
+                </p>
+                <div class="projects-skills">
+                  <span>react</span>
+                  <span>javaScript</span>
+                  <span>useEffect</span>
+                  <span>css</span>
+                  <span>axios</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./assets/img/project5.svg" alt="project" />
+                  <div class="overlay">
+                    <a href="https://github.com/95vpn/rick-morty-caricatura" target="_blank">
+                      <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://rick-morty-caricatura-mau.netlify.app/" target="_blank">
+                      <i class='bx bx-window-alt'></i>
+                    </a>
+                  </div>
+                </div>
+                <h3>Proyecto # 5</h3>
+                <p class="project-description">Es una aplicación web de la serie de Rick and Morty que proporciona datos
+                  sobre las locaciones.
+                </p>
+                <div class="projects-skills">
+                  <span>react</span>
+                  <span>javaScript</span>
+                  <span>useEffect</span>
+                  <span>css</span>
+                  <span>axios</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./assets/img/project4.svg" alt="project" />
+                  <div class="overlay">
+                    <a href="https://github.com/95vpn/weather-clima" target="_blank">
+                      <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://weather-clima-mau.netlify.app/" target="_blank">
+                      <i class='bx bx-window-alt'></i>
+                    </a>
+                  </div>
+                </div>
+                <h3>Proyecto # 4</h3>
+                <p class="project-description">Es una aplicación del clima donde se puede ver algunas variables como la
+                  velocidad del viento, la humedad, temperatura, entre otros de cualquier ciudad.
+                </p>
+                <div class="projects-skills">
+                  <span>react</span>
+                  <span>javaScript</span>
+                  <span>useEffect</span>
+                  <span>useRef</span>
+                  <span>fetch</span>
+                  <span>axios</span>
+                  <span>css</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./assets/img/project3.svg" alt="project" />
+                  <div class="overlay">
+                    <a href="https://github.com/95vpn/react-galleta-de-la-fortuna" target="_blank">
+                      <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://galleta-fortuna-project.netlify.app/" target="_blank">
+                      <i class='bx bx-window-alt'></i>
+                    </a>
+                  </div>
+                </div>
+                <h3>Proyecto # 3</h3>
+                <p class="project-description">Se trata de la galleta de la fortuna donde el usuario puede probar su
+                  suerte.
+                </p>
+                <div class="projects-skills">
+                  <span>react</span>
+                  <span>javaScript</span>
+                  <span>Components</span>
+                  <span>props</span>
+                  <span>useState</span>
+                  <span>css</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./assets/img/project2.svg" alt="project" />
+                  <div class="overlay">
+                    <a href="https://github.com/95vpn/react-galleta-de-la-fortuna" target="_blank">
+                      <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://experimento-de-blog.netlify.app/" target="_blank">
+                      <i class='bx bx-window-alt'></i>
+                    </a>
+                  </div>
+                </div>
+                <h3>Proyecto # 2</h3>
+                <p class="project-description">Maquetando y dando estilos a un modelo de blog de mascotas y que sea
+                  responsivo.
+                </p>
+                <div class="projects-skills">
+                  <span>html</span>
+                  <span>css</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-img">
+                  <img src="./assets/img/project1.svg" alt="project" />
+                  <div class="overlay">
+                    <a href="https://github.com/95vpn/maquetado-1" target="_blank">
+                      <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://maquetado-1.netlify.app/" target="_blank">
+                      <i class='bx bx-window-alt'></i>
+                    </a>
+                  </div>
+                </div>
+                <h3>Proyecto # 1</h3>
+                <p class="project-description">Comenzando en el mundo de desarrollo web
+                </p>
+                <div class="projects-skills">
+                  <span>html</span>
+                  <span>css</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-nav-wrapper">
+            <!-- <div class="swiper-button-prev">
                         <i class='bx bxs-chevron-left'></i>
                     </div> -->
-                    <!-- <div class="swiper-pagination"></div> -->
-                    <!-- <div class="swiper-button-next">
+            <!-- <div class="swiper-pagination"></div> -->
+            <!-- <div class="swiper-button-next">
                         <i class='bx bxs-chevron-right'></i>
                     </div> -->
-                </div>
-            </div>
-
-
+          </div>
         </div>
+
+
+      </div>
     </section>
 
-      <section id='contact' class='section contact'>
-        <h2 class='section-title'>Contacto</h2>
-        <div class='container'>
-          <div class="container-person">
-
-            <p>Si tiene preguntas o simplemente quiere saludarme, no dude en enviarme un correo electrónico.</p>
-            <form class="form">
-                <input type="text" placeholder="Ingresa tu nombre" name="nameUser" id="nameUser" required>
-                <input type="email" placeholder="Ingresa tu correo" name="emailUser" id="emailUser" required>
-
-                <textarea name="commentUser" id="commentUser" cols="30" rows="10"
-                    placeholder="Escribeme ..."></textarea>
-
-                <button class="btn">Enviar</button>
-            </form>
-        </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class='footer'>
+    <section id='contact' class='section contact'>
+      <h2 class='section-title'>Contacto</h2>
       <div class='container'>
-        <p>&copy; 2024 - Johnny Mauricio</p>
-        <p>jmjaramillo95@gmail.com</p>
+        <div class="container-person">
+
+          <p>Si tiene preguntas o simplemente quiere saludarme, no dude en enviarme un correo electrónico.</p>
+          <form class="form">
+            <input type="text" placeholder="Ingresa tu nombre" name="nameUser" id="nameUser" required>
+            <input type="email" placeholder="Ingresa tu correo" name="emailUser" id="emailUser" required>
+
+            <textarea name="commentUser" id="commentUser" cols="30" rows="10" placeholder="Escribeme ..."></textarea>
+
+            <button class="btn">Enviar</button>
+          </form>
+        </div>
       </div>
+    </section>
+  </main>
 
-        <ul class='social'>
-          <li class='social-item'>
-            <a href='https://github.com/95vpn'>
-              <i class='bx bxl-github'></i>
-            </a>
-          </li>
-          <li class='social-item'>
-            <a href='https://www.linkedin.com/in/johnny-herrera-jaramillo/'>
-              <i class='bx bxl-linkedin'></i>
-            </a>
-          </li>
-        </ul>
-    </footer>
+  <footer class='footer'>
+    <div class='container'>
+      <p>&copy; 2024 - Johnny Mauricio</p>
+      <p>jmjaramillo95@gmail.com</p>
+    </div>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- <script>
+    <ul class='social'>
+      <li class='social-item'>
+        <a href='https://github.com/95vpn'>
+          <i class='bx bxl-github'></i>
+        </a>
+      </li>
+      <li class='social-item'>
+        <a href='https://www.linkedin.com/in/johnny-herrera-jaramillo/'>
+          <i class='bx bxl-linkedin'></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- <script>
       const typed = new Typed('.hero-description span', {
         strings: [
           '<b>Front-end</b>', '<b>Back-end</b>', '<b>Full-stack</b>'
@@ -502,8 +532,8 @@
       })
     </script> -->
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js'></script>
-    <!-- <script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.1/swiper-bundle.min.js'></script>
+  <!-- <script>
       const swiper = new Swiper('.swiper', {
         direction: 'horizontal',
         dragEvents: true,
@@ -533,79 +563,80 @@
         }
       })
     </script> -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            effect: "coverflow",
-            // effect: "cube",
-            grabCursor: true,
-            autoHeight: false,
-            centeredSlides: true,
-            slidesPerView: 1,
-            breakpoints: {
-                640: {
-                    slidesPerView: 2,
-                    spaceBetween: 40,
-                },
-                992: {
-                    slidesPerView: 2,
-                    spaceBetween: 40,
-                }
-            },
-            coverflowEffect: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
-            },
-            // cubeEffect: {
-            //     shadow: true,
-            //     slideShadows: true,
-            //     shadowOffset: 80,
-            //     shadowScale: 0.5,
-            // },
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      // effect: "cube",
+      grabCursor: true,
+      autoHeight: false,
+      centeredSlides: true,
+      slidesPerView: 1,
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        992: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        }
+      },
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      // cubeEffect: {
+      //     shadow: true,
+      //     slideShadows: true,
+      //     shadowOffset: 80,
+      //     shadowScale: 0.5,
+      // },
 
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
 
-    </script>
+  </script>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      const SR = ScrollReveal({
-        origin: 'top',
-        distance: '30px',
-        duration: 2000,
-        reset: true
-      })
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    const SR = ScrollReveal({
+      origin: 'top',
+      distance: '30px',
+      duration: 2000,
+      reset: true
+    })
 
-      SR.reveal('.header', {
-        origin: 'top',
-        distance: '60px',
-        duration: 1000,
-      })
+    SR.reveal('.header', {
+      origin: 'top',
+      distance: '60px',
+      duration: 1000,
+    })
 
-      SR.reveal('.hero-title', {
-        origin: 'left',
-        distance: '60px',
-        duration: 1000,
-      })
+    SR.reveal('.hero-title', {
+      origin: 'left',
+      distance: '60px',
+      duration: 1000,
+    })
 
-      SR.reveal('.hero-description', {
-        origin: 'right',
-        distance: '60px',
-        duration: 1000,
-      })
-    </script>
+    SR.reveal('.hero-description', {
+      origin: 'right',
+      distance: '60px',
+      duration: 1000,
+    })
+  </script>
 
-    <script src="assets/js/index.js"></script>
-  </body>
+  <script src="assets/js/index.js"></script>
+</body>
+
 </html>

@@ -105,7 +105,7 @@ btnLight.addEventListener('click', function () {
   }
 })
 
-function changeTheme (bool) {
+function changeTheme(bool) {
   if (bool) {
     btnLight.firstElementChild.classList.remove('bxs-moon')
     btnLight.firstElementChild.classList.add('bxs-sun')
@@ -142,3 +142,5 @@ window.addEventListener('scroll', function () {
 
   prevPos = currentPos
 })
+
+// flgs idioma
