@@ -139,7 +139,7 @@ button {
 }
 
 .menu-list li:hover{
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 .flags {
@@ -626,14 +626,14 @@ button.btn-open {
   overflow: hidden;
 } 
 
-/* .swiper .card-img img {
+.swiper .card-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: top;
-} */
+}
 
-/* .swiper .swiper-slide {
+.swiper .swiper-slide {
   margin: 0;
   height: auto;
   width: 100%;
@@ -642,14 +642,14 @@ button.btn-open {
   background: var(--bg-alt);
   border-radius: 6px;
   transition: all 0.5s ease-in-out;
-} */
+}
 
-/* .swiper .swiper-slide.swiper-slide-active {
+.swiper .swiper-slide.swiper-slide-active {
   opacity: 1;
   transform: scale(1.1);
-} */
+}
 
-/* .swiper .swiper-nav-wrapper {
+.swiper .swiper-nav-wrapper {
   bottom: 0;
   left: 0;
   right: 0;
@@ -658,24 +658,24 @@ button.btn-open {
   align-items: center;
   margin: 0 auto;
   width: auto;
-  padding-top: 3em;
-} */
+  padding: 3em;
+}
 
-/* .swiper .swiper-nav-wrapper .swiper-button-next,
+.swiper .swiper-nav-wrapper .swiper-button-next,
 .swiper .swiper-nav-wrapper .swiper-button-prev {
   top: 0;
   top: auto;
   left: auto;
   right: auto;
   position: relative !important;
-} */
+}
 
-/* .swiper .swiper-nav-wrapper .swiper-button-next:after,
+.swiper .swiper-nav-wrapper .swiper-button-next:after,
 .swiper .swiper-nav-wrapper .swiper-button-prev:after {
   display: none;
-} */
+}
 
-/* .swiper .swiper-nav-wrapper .swiper-button-next,
+.swiper .swiper-nav-wrapper .swiper-button-next,
 .swiper .swiper-nav-wrapper .swiper-button-prev,
 .swiper .swiper-nav-wrapper .swiper-container-rtl .swiper-button-prev,
 .swiper .swiper-nav-wrapper .swiper-container-rtl .swiper-button-next {
@@ -683,7 +683,7 @@ button.btn-open {
   height: 20px;
   margin: 0;
   padding: 0;
-} */
+}
 
 .swiper .swiper-nav-wrapper .swiper-button-prev i,
 .swiper .swiper-nav-wrapper .swiper-button-next i {
@@ -704,12 +704,12 @@ button.btn-open {
   background: var(--txt-body) !important;
 }
 
-/* .swiper-pagination-bullet {
+.swiper-pagination-bullet {
   background: var(--primary-color) !important;
   transition: all 0.2s ease-in-out;
-} */
+}
 
-/* .swiper-pagination-bullets.swiper-pagination-horizontal {
+.swiper-pagination-bullets.swiper-pagination-horizontal {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -719,7 +719,7 @@ button.btn-open {
   bottom: 0;
   width: auto;
   padding: 0 1.5em;
-} */
+}
 
 .swiper-pagination-bullet-active {
   transform: scale(1.5);
