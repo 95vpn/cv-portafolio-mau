@@ -20,7 +20,7 @@ const skills = [
   },
   {
     path: 'assets/img/javascript.svg',
-    name: 'JavaScript',
+    name: 'Java Script',
   },
   {
     path: 'assets/img/react.svg',
