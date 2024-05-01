@@ -37,6 +37,22 @@ const skills = [
   {
     path: 'assets/img/vite.svg',
     name: 'Vite'
+  },
+  {
+    path: 'assets/img/nodejs.svg',
+    name: 'Nodejs'
+  },
+  {
+    path: 'assets/img/postgres.svg',
+    name: 'Postgres'
+  },
+  {
+    path: 'assets/img/postman.svg',
+    name: 'Postman'
+  },
+  {
+    path: 'assets/img/express.svg',
+    name: 'Express'
   }
 ]
 
