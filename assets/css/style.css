@@ -376,9 +376,40 @@ button.btn-open {
 }
 
 .hero-title {
-  font-size: 45px;
+  font-size: 25px;
   line-height: 1;
+  color: var(--bg-body);
+  text-shadow: 1px -1px 4px var(--txt-body);
+  animation: title 5s ease-in-out;
 }
+
+/* @keyframes title {
+  0%{
+    transform: translateZ(-100px);
+    color: var(--bg-body);
+    text-shadow: 0 0 -5px var(--txt-body)
+  }
+  25%{
+    transform: rotate(90deg) scale(0.2);
+    ;
+  }
+  50%{
+    transform: rotate(90deg);
+  } 
+  75%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(180deg) scale(1);
+  } 
+  
+  
+} */
+
+.hero-title span {
+  color: var(--txt-body);
+}
+
 
 .hero-title span {
   color: var(--primary-color);
@@ -386,6 +417,7 @@ button.btn-open {
 
 .hero-description {
   font-size: 30px;
+
 }
 
 .hero-description span {
@@ -509,6 +541,38 @@ button.btn-open {
   gap: 70px 40px;
 }
 
+.project:nth-child(1) {
+  transition-delay: 100ms;
+
+}
+.project:nth-child(2) {
+  transition-delay: 200ms;
+}
+.project:nth-child(3) {
+  transition-delay: 300ms;
+}
+.project:nth-child(4) {
+  transition-delay: 400ms;
+}
+.project:nth-child(5) {
+  transition-delay: 500ms;
+}
+.project:nth-child(6) {
+  transition-delay: 600ms;
+}
+.project:nth-child(7) {
+  transition-delay: 700ms;
+}
+.project:nth-child(8) {
+  transition-delay: 800ms;
+}
+.project:nth-child(9) {
+  transition-delay: 900ms;
+}
+.project:nth-child(10) {
+  transition-delay: 1000ms;
+}
+
 .project-img {
   position: relative;
   width: 100%;
@@ -566,6 +630,17 @@ button.btn-open {
 .project-skills span:hover {
   background-color: var(--primary-color);
   color: var(--bg-body);
+}
+
+.hidden{
+  opacity: 0;
+  transform: translateY(-100px);
+  transition: opacity 0.5s, transform 1s;
+}
+
+.show{
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 /*.swiper .card {
@@ -944,7 +1019,13 @@ button.btn-open {
   color: var(--tx-body);
   border: 1px solid var(--txt-body);
   /* box-shadow: 0px 0px 5px var(--txt-body), 0px 0px 5px var(--txt-body), 0px 0px 5px var(--txt-body), 0px 0px 5px var(--txt-body); */
-  padding: 5px 10px;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  background-color: var(--primary-color);
+  color: aliceblue;
 }
 
 @media (width: 957px) {
