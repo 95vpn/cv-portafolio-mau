@@ -60,7 +60,7 @@ let html = ''
 
 for (const skill of skills) {
   html += `
-  <div class='skill'>
+  <div class='skill hidden'>
     <img src='${skill.path}' alt='${skill.name}'>
     <h3>${skill.name}</h3>
   </div>
